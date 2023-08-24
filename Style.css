@@ -1,0 +1,19 @@
+#menuslides{
+    display:inline-flex;
+    margin: 30px;
+    padding: 15px;
+  
+}
+#items_container,#dishitems,#dishimages,#dish-calory{
+    display: grid;
+    align-items: center;
+   grid-template-columns:auto auto auto  auto auto;
+   column-gap: 0.5rem;  
+}
+#dishitems{
+    border-top: 1px solid grey;
+}
+#buttongroup{ 
+    border-radius:25%;
+    width: 150px;
+}
